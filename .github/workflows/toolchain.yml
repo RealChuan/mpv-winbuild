@@ -114,7 +114,7 @@ jobs:
       - name: Checkout toolchain
         uses: actions/checkout@v4
         with:
-          repository: shinchiro/mpv-winbuild-cmake
+          repository: RealChuan/mpv-winbuild-cmake
           path: mpv-winbuild-cmake
       - name: Build LLVM
         shell: bash
@@ -195,7 +195,7 @@ jobs:
       - name: Checkout toolchain
         uses: actions/checkout@v4
         with:
-          repository: shinchiro/mpv-winbuild-cmake
+          repository: RealChuan/mpv-winbuild-cmake
           path: mpv-winbuild-cmake
 
       - name: Restore llvm cache
